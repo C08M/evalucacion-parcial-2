@@ -33,4 +33,20 @@ function edadPersona(edad) {
     }
 }
 
-edadPersona(20);
+edadPersona(20); 
+
+/* Ejercicio 4 */
+
+let suma = 0;
+
+for (let i = 1; i <= 20; i++) {
+    if (i % 2 == 0) {
+        console.log(i + " es par");
+    } else {
+        console.log(i + " es impar");
+    }
+
+    suma = suma + i;
+}
+
+console.log("Suma total: " + suma);
