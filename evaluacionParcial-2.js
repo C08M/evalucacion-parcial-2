@@ -20,3 +20,17 @@ let precioFinal = precio - ahorro;
 
 console.log("Precio final:", precioFinal);
 console.log("Ahoro:", ahorro);
+
+/* Ejercicio 3 */ 
+
+function edadPersona(edad) {
+    if (edad < 18) {
+        console.log("menor de edad");
+    } else if (edad > 65) {
+        console.log("adulto mayor");
+    } else {
+        console.log("adulto");
+    }
+}
+
+edadPersona(20);
